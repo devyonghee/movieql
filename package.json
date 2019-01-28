@@ -1,0 +1,22 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/shiw122333/movieql",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.17.1",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2"
+  }
+}
